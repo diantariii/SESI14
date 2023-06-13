@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JQuery 01</title>
+</head>
+<body>
+
+    <h3>JUDUL</h3>
+    <div id="tampil1">Isi dari Tampil 1</div>
+    <div class="tampil1">Isi dari Tampil 1</div>
+
+    <p>Isi Paragraph</p>
+    <div id="tampil2">Isi dari Tampil 2</div>
+    <div class="tampil2">Isi dari Tampil 2</div>
+
+    <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#tampil1").html("ADA BAIKNYA KITA TURU")//tanda untuk ID menggunakan #(pagar)
+            $(".tampil1").html("AKU SUKA KAMU")//tanda untuk CLASS .(titik)
+            $("h3").html("CAPEK")
+            $("p").html("PPPPPPPPPP")
+            $("#tampil2").html("DO YOUR BEST MAYBE NOT SOMETIME")
+            $(".tampil2").html("PP")
+
+        });
+    </script>
+</body>
+</html>
